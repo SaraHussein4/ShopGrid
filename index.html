@@ -1,0 +1,1086 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.xyz/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="nav navbar-expand-lg">
+        <div class="row w-100">
+          <!-- first col -->
+          <div class="col-md-2 fs-3 mt-3 col-sm-2 col-2">
+            <a class="navbar-brand text-primary fw-bold" href="#"
+              ><i class="fas fa-shipping-fast"></i>Shop<span class="text-dark"
+                >Grids</span
+              ></a
+            >
+          </div>
+          <!--end of first col -->
+
+          <!-- second col -->
+          <button
+            class="navbar-toggler d-none"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="col-md-8 col-sm-6 col-4">
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <div class="input-group mb-3 mt-3 mx-3">
+                <button
+                  class="btn btn-outline-secondary dropdown-toggle btn-lg fs-6"
+                  type="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  All
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">option 01</a></li>
+                  <li><a class="dropdown-item" href="#">option 02</a></li>
+                  <li><a class="dropdown-item" href="#">option 03</a></li>
+                  <li><a class="dropdown-item" href="#">option 04</a></li>
+                </ul>
+                <input
+                  type="text"
+                  class="form-control form-control-sm"
+                  placeholder="Search"
+                />
+                <button
+                  class="btn btn-primary btns border-primary-subtle btn-lg fs-6"
+                >
+                  <i class="fas fa-search"></i>
+                </button>
+              </div>
+              <!--end of input group-->
+              <div class="d-flex divf ms-5">
+                <div class="fs-6 px-2 mx-1 div1 d-flex align-items-center">
+                  <i class="fas fa-phone"></i>
+                </div>
+                <div class="w-100">
+                  <h6 class="m-0">Hotline:</h6>
+                  <span class="text-secondary fs-6 fw-0"
+                    >(+100) 123 456 7890</span
+                  >
+                </div>
+              </div>
+            </div>
+            <!--collapse-->
+          </div>
+          <!--end of second col -->
+
+          <div class="col-md-2 d-flex mt-3 col-sm-2 col-4">
+            <!--third col-->
+            <div class="fs-5 px-2 div1 d-flex align-items-center div2">
+              <i class="far fa-heart position-relative">
+                <span class="span5 position-absolute  start-100  badge rounded-circle bg-dark">
+                  0
+                  <span class="visually-hidden">unread messages</span>
+                </span>
+              </i>
+            </div>
+            <div class="fs-5 mx-4 px-2 div1 d-flex align-items-center">
+              <i class="fas fa-shopping-cart position-relative">
+                <span class="span5 position-absolute  start-100  badge rounded-circle bg-dark">
+                  2
+                  <span class="visually-hidden">unread messages</span>
+                </span>
+              </i>
+            </div>
+          </div>
+          <!--end of third col-->
+        </div>
+        <!--end of row -->
+      </div>
+      <!--end of nav -->
+    </div>
+    <!--end of container -->
+
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-md-8 mb-3">
+          <div
+            id="carouselExampleInterval"
+            class="carousel slide carousel-fade"
+            data-bs-ride="true"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img src="./images/oo.png" class="d-block w-100" alt="..." />
+                <div class="overlay">
+                  <div class="carousel-caption">
+                    <p class="text-secondary p1">Big sale offer</p>
+                    <h1>
+                      Get the Best Deal on CCTV <br />
+                      Camera
+                    </h1>
+                    <p class="text-secondary">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Nihil iusto <br />
+                      sapiente dicta aliquam inventore debitis deleniti
+                      architecto.
+                    </p>
+                    <p class="text-secondary p1">
+                      Now Only <span class="span1"> $320.99 </span>
+                    </p>
+                    <button class="btn btn-primary btn-lg">Shop Now</button>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="./images/cc.png" class="d-block w-100" alt="..." />
+                <div class="overlay">
+                  <div class="carousel-caption">
+                    <p class="text-secondary p1">
+                      No restocking fee ($35 savings)
+                    </p>
+                    <h1>M75 Sport Watch</h1>
+                    <p class="text-secondary">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Nihil iusto <br />
+                      sapiente dicta aliquam inventore debitis deleniti
+                      architecto.
+                    </p>
+                    <p class="text-secondary p1">
+                      Now Only <span class="span1"> $320.99 </span>
+                    </p>
+                    <button class="btn btn-primary btn-lg">Shop Now</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev text-bg-primary rounded-end-1"
+              style="height: 60px; width: 30px; margin: auto"
+              type="button"
+              data-bs-target="#carouselExampleInterval"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next text-bg-primary rounded-end-1"
+              style="height: 60px; width: 30px; margin: auto"
+              type="button"
+              data-bs-target="#carouselExampleInterval"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+        <!-- end of first div -->
+
+        <div class="col-md-4">
+          <div class="second-div">
+            <h6 class="text-secondary">New line required</h6>
+            <h5 class="fw-bold">iPhone 12 Pro Max</h5>
+            <h5 class="fw-bold">$259.99</h5>
+          </div>
+          <div class="third-div mb-3">
+            <h4 class="fw-bold text-white">Weekly Sale!</h4>
+            <p class="text-white">
+              Saving up to 50% off all online store items this week.
+            </p>
+            <button class="btn btn-light btn-outline-primary">Shop Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="text-center mt-5 justify-content-center">
+        <h3 class="fw-bold">Featured Categories</h3>
+        <div class="horizontal-line m-auto"></div>
+        <p class="text-secondary mt-4 text mb-5">
+          There are many variations of passages of Lorem Ipsum available, but
+          the majority have suffered alteration <br />
+          in some form.
+        </p>
+      </div>
+
+      <div class="row">
+        <div class="col-md-4 mb-3">
+          <div class="div5">
+            <div class="inside">
+              <h6 class="mb-3 fw-bold">Cctv Camera</h6>
+              <a class="d-block text-decoration-none  a1" href="#"
+                >Smart Television</a
+              >
+              <a class="d-block text-decoration-none a1" href="#"
+                >QLED TV</a
+              >
+              <a class="d-block text-decoration-none a1" href="#"
+                >Audios</a
+              >
+              <a class="d-block text-decoration-none  a1" href="#"
+                >Headphones</a
+              >
+              <a class="d-block text-decoration-none  a1" href="#"
+                >View All</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-3">
+          <div class="div6">
+            <div class="inside">
+              <h6 class="mb-3 fw-bold">Dslr Camera</h6>
+              <a class="d-block text-decoration-none a1" href="#"
+                >Smart Television</a
+              >
+              <a class="d-block text-decoration-none a1" href="#"
+                >QLED TV</a
+              >
+              <a class="d-block text-decoration-none a1" href="#"
+                >Audios</a
+              >
+              <a class="d-block text-decoration-none a1" href="#"
+                >Headphones</a
+              >
+              <a class="d-block text-decoration-none a1" href="#"
+                >View All</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-3">
+          <div class="div7">
+            <div class="inside">
+              <h6 class="mb-3 fw-bold">TV & Audios</h6>
+              <a class="d-block text-decoration-none a1" href="#"
+                >Smart Television</a
+              >
+              <a class="d-block text-decoration-none a1" href="#"
+                >QLED TV</a
+              >
+              <a class="d-block text-decoration-none a1" href="#"
+                >Audios</a
+              >
+              <a class="d-block text-decoration-none a1" href="#"
+                >Headphones</a
+              >
+              <a class="d-block text-decoration-none a1" href="#"
+                >View All</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-3">
+          <div class="div8">
+            <div class="inside">
+              <h6 class="mb-3 fw-bold">Smart Phones</h6>
+              <a class="d-block text-decoration-none a1" href="#"
+                >Smart Television</a
+              >
+              <a class="d-block text-decoration-none a1" href="#"
+                >QLED TV</a
+              >
+              <a class="d-block text-decoration-none a1" href="#"
+                >Audios</a
+              >
+              <a class="d-block text-decoration-none a1" href="#"
+                >Headphones</a
+              >
+              <a class="d-block text-decoration-none a1" href="#"
+                >View All</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="div9">
+            <div class="inside">
+              <h6 class="mb-3 fw-bold">Game Console</h6>
+              <a class="d-block text-decoration-none a1" href="#"
+                >Smart Television</a
+              >
+              <a class="d-block text-decoration-none a1" href="#"
+                >QLED TV</a
+              >
+              <a class="d-block text-decoration-none a1" href="#"
+                >Audios</a
+              >
+              <a class="d-block text-decoration-none a1" href="#"
+                >Headphones</a
+              >
+              <a class="d-block text-decoration-none a1" href="#"
+                >View All</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="div10">
+            <div class="inside">
+              <h6 class="mb-3 fw-bold">TV & Audios</h6>
+              <a class="d-block text-decoration-none a1" href="#"
+                >Smart Television</a
+              >
+              <a class="d-block text-decoration-none a1" href="#"
+                >QLED TV</a
+              >
+              <a class="d-block text-decoration-none a1" href="#"
+                >Audios</a
+              >
+              <a class="d-block text-decoration-none a1" href="#"
+                >Headphones</a
+              >
+              <a class="d-block text-decoration-none a1" href="#"
+                >View All</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--end of container-->
+
+    <!-- section3 -->
+    <div class="container-fluid bg-light mt-5 mb-5">
+      <div class="container mb-5">
+        <div class="text-center justify-content-center">
+          <h3 class="fw-bold heading3">Trending Product</h3>
+          <div class="horizontal-line m-auto"></div>
+          <p class="text-secondary mt-4 text mb-5">
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alteration <br />
+            in some form.
+          </p>
+        </div>
+
+        <div class="row">
+          <div class="col-md-3 mb-4">
+            <div class="card border-0 shadow card1">
+              <div class="img-top p-2 img-top1">
+                <div class="cart rounded-1 mx-auto">
+                  <button class="btn btn-primary btn4 p-2">
+                    <i class="fas fa-shopping-cart mx-1"></i> Add To Cart
+                  </button>
+                </div>
+              </div>
+              <!-- <img class="img-top p-2" src="./images/mobile (1).jpeg" alt="" /> -->
+              <div class="card-body">
+                <p class="span3 text-secondary mb-2 px-2">Phones</p>
+                <h5 class="mb-2 fw-bold px-2">iphone 6x plus</h5>
+                <p class="text3 px-2">
+                  <i class="fas fa-star px-1"></i><i class="fas fa-star"></i
+                  ><i class="fas fa-star px-1"></i><i class="fas fa-star"></i
+                  ><i class="fas fa-star px-1"></i>
+                  <span class="span3 text-secondary">5.0 Review(s)</span>
+                </p>
+                <p class="text-primary fs-5 fw-bold px-2">$400.00</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 mb-4">
+            <div class="card border-0 shadow card1">
+              <div class="img-top p-2 img-top2 position-relative">
+                <div class="cart rounded-1 mx-auto">
+                  <button class="btn btn-primary btn4 p-2 ">
+                    <i class="fas fa-shopping-cart mx-1"></i> Add To Cart
+                  </button>
+                </div>
+                <div>
+                  <p class="badge position-absolute start-0 p-2">-25%</p>
+                </div>
+              </div>
+              <!-- <img class="img-top p-2" src="./images/mobile (1).jpeg" alt="" /> -->
+              <div class="card-body">
+                <p class="span3 text-secondary mb-2 px-2">Phones</p>
+                <h5 class="mb-2 fw-bold px-2">iphone 6x plus</h5>
+                <p class="text3 px-2">
+                  <i class="fas fa-star px-1"></i><i class="fas fa-star"></i
+                  ><i class="fas fa-star px-1"></i><i class="fas fa-star"></i
+                  ><i class="fas fa-star px-1"></i>
+                  <span class="span3 text-secondary">5.0 Review(s)</span>
+                </p>
+                <p class="text-primary fs-5 fw-bold px-2">$400.00</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 mb-4">
+            <div class="card border-0 shadow card1">
+              <div class="img-top p-2 img-top3">
+                <div class="cart rounded-1 mx-auto">
+                  <button class="btn btn-primary btn4 p-2">
+                    <i class="fas fa-shopping-cart mx-1"></i> Add To Cart
+                  </button>
+                </div>
+              </div>
+              <!-- <img class="img-top p-2" src="./images/mobile (1).jpeg" alt="" /> -->
+              <div class="card-body">
+                <p class="span3 text-secondary mb-2 px-2">Phones</p>
+                <h5 class="mb-2 fw-bold px-2">iphone 6x plus</h5>
+                <p class="text3 px-2">
+                  <i class="fas fa-star px-1"></i><i class="fas fa-star"></i
+                  ><i class="fas fa-star px-1"></i><i class="fas fa-star"></i
+                  ><i class="fas fa-star px-1"></i>
+                  <span class="span3 text-secondary">5.0 Review(s)</span>
+                </p>
+                <p class="text-primary fs-5 fw-bold px-2">$400.00</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 mb-4">
+            <div class="card border-0 shadow card1">
+              <div class="img-top p-2 position-relative">
+                <div class="cart rounded-1 mx-auto">
+                  <button class="btn btn-primary btn4 p-2">
+                    <i class="fas fa-shopping-cart mx-1"></i> Add To Cart
+                  </button>
+                </div>
+                <div>
+                  <p class="badge badge1 position-absolute start-0 p-2">New</p>
+                </div>
+              </div>
+              <!-- <img class="img-top p-2" src="./images/mobile (1).jpeg" alt="" /> -->
+              <div class="card-body">
+                <p class="span3 text-secondary mb-2 px-2">Phones</p>
+                <h5 class="mb-2 fw-bold px-2">iphone 6x plus</h5>
+                <p class="text3 px-2">
+                  <i class="fas fa-star px-1"></i><i class="fas fa-star"></i
+                  ><i class="fas fa-star px-1"></i><i class="fas fa-star"></i
+                  ><i class="fas fa-star px-1"></i>
+                  <span class="span3 text-secondary">5.0 Review(s)</span>
+                </p>
+                <p class="text-primary fs-5 fw-bold px-2">$400.00</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 mb-4">
+            <div class="card border-0 shadow card1">
+              <div class="img-top p-2 img-top5">
+                <div class="cart rounded-1 mx-auto">
+                  <button class="btn btn-primary btn4 p-2">
+                    <i class="fas fa-shopping-cart mx-1"></i> Add To Cart
+                  </button>
+                </div>
+              </div>
+              <!-- <img class="img-top p-2" src="./images/mobile (1).jpeg" alt="" /> -->
+              <div class="card-body">
+                <p class="span3 text-secondary mb-2 px-2">Phones</p>
+                <h5 class="mb-2 fw-bold px-2">iphone 6x plus</h5>
+                <p class="text3 px-2">
+                  <i class="fas fa-star px-1"></i><i class="fas fa-star"></i
+                  ><i class="fas fa-star px-1"></i><i class="fas fa-star"></i
+                  ><i class="fas fa-star px-1"></i>
+                  <span class="span3 text-secondary">5.0 Review(s)</span>
+                </p>
+                <p class="text-primary fs-5 fw-bold px-2">$400.00</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 mb-4">
+            <div class="card border-0 shadow card1">
+              <div class="img-top p-2 img-top6">
+                <div class="cart rounded-1 mx-auto">
+                  <button class="btn btn-primary btn4 p-2">
+                    <i class="fas fa-shopping-cart mx-1"></i> Add To Cart
+                  </button>
+                </div>
+              </div>
+              <!-- <img class="img-top p-2" src="./images/mobile (1).jpeg" alt="" /> -->
+              <div class="card-body">
+                <p class="span3 text-secondary mb-2 px-2">Phones</p>
+                <h5 class="mb-2 fw-bold px-2">iphone 6x plus</h5>
+                <p class="text3 px-2">
+                  <i class="fas fa-star px-1"></i><i class="fas fa-star"></i
+                  ><i class="fas fa-star px-1"></i><i class="fas fa-star"></i
+                  ><i class="fas fa-star px-1"></i>
+                  <span class="span3 text-secondary">5.0 Review(s)</span>
+                </p>
+                <p class="text-primary fs-5 fw-bold px-2">$400.00</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 mb-4">
+            <div class="card border-0 shadow card1">
+              <div class="img-top p-2 img-top7 position-relative">
+                <div class="cart rounded-1 mx-auto">
+                  <button class="btn btn-primary btn4 p-2">
+                    <i class="fas fa-shopping-cart mx-1"></i> Add To Cart
+                  </button>
+                </div>
+                <div>
+                  <p class="badge position-absolute start-0 p-2">-50%</p>
+                </div>
+              </div>
+              <!-- <img class="img-top p-2" src="./images/mobile (1).jpeg" alt="" /> -->
+              <div class="card-body">
+                <p class="span3 text-secondary mb-2 px-2">Phones</p>
+                <h5 class="mb-2 fw-bold px-2">iphone 6x plus</h5>
+                <p class="text3 px-2">
+                  <i class="fas fa-star px-1"></i><i class="fas fa-star"></i
+                  ><i class="fas fa-star px-1"></i><i class="fas fa-star"></i
+                  ><i class="fas fa-star px-1"></i>
+                  <span class="span3 text-secondary">5.0 Review(s)</span>
+                </p>
+                <p class="text-primary fs-5 fw-bold px-2">$400.00</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 mb-4">
+            <div class="card border-0 shadow card1">
+              <div class="img-top p-2 img-top8">
+                <div class="cart rounded-1 mx-auto">
+                  <button class="btn btn-primary btn4 p-2">
+                    <i class="fas fa-shopping-cart mx-1"></i> Add To Cart
+                  </button>
+                </div>
+              </div>
+              <!-- <img class="img-top p-2" src="./images/mobile (1).jpeg" alt="" /> -->
+              <div class="card-body">
+                <p class="span3 text-secondary mb-2 px-2">Phones</p>
+                <h5 class="mb-2 fw-bold px-2">iphone 6x plus</h5>
+                <p class="text3 px-2">
+                  <i class="fas fa-star px-1"></i><i class="fas fa-star"></i
+                  ><i class="fas fa-star px-1"></i><i class="fas fa-star"></i
+                  ><i class="fas fa-star px-1"></i>
+                  <span class="span3 text-secondary">5.0 Review(s)</span>
+                </p>
+                <p class="text-primary fs-5 fw-bold px-2">$400.00</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--end of the row-->
+      </div>
+      <!--end of container-->
+    </div>
+    <!--end of container-fluid-->
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 mb-3 rounded-1">
+          <div class="bg-img">
+            <div class="content">
+              <h5 class="fw-bold">Smart Watch 2.0</h5>
+              <p class="text-secondary span3">
+                Space Gray Aluminum Case with<br />
+                Black/Volt Real Sport Band
+              </p>
+              <button class="btn btn-primary">View Details</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 mb-3">
+          <div class="bg-img bg-img1 rounded-1">
+            <div class="content">
+              <h5 class="fw-bold">Smart Headphone</h5>
+              <p class="text-secondary span3">
+                Lorem ipsum dolor sit amet, <br />
+                eiusmod tempor incididunt ut labore.
+              </p>
+              <button class="btn btn-primary">Shop Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid bg-light mt-5 mb-5">
+      <div class="container mb-5">
+        <div class="text-center justify-content-center">
+          <h3 class="fw-bold heading3">Special Offer</h3>
+          <div class="horizontal-line m-auto"></div>
+          <p class="text-secondary mt-4 text mb-5">
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alteration <br />
+            in some form.
+          </p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-8">
+            <div class="row">
+              <div class="col-lg-4 mb-3">
+                <div class="card border-0 shadow card1">
+                  <div class="img-top p-2 img-top9">
+                    <div class="cart rounded-1 mx-auto">
+                      <button class="btn btn-primary btn4 p-2 btn5">
+                        <i class="fas fa-shopping-cart mx-1"></i> Add To Cart
+                      </button>
+                    </div>
+                  </div>
+                  <!-- <img class="img-top p-2" src="./images/mobile (1).jpeg" alt="" /> -->
+                  <div class="card-body">
+                    <p class="span3 text-secondary mb-2 px-2">Camera</p>
+                    <h5 class="mb-2 fw-bold px-2">WiFi Security Camera</h5>
+                    <p class="text3 px-2">
+                      <i class="fas fa-star px-1"></i><i class="fas fa-star"></i
+                      ><i class="fas fa-star px-1"></i
+                      ><i class="fas fa-star"></i
+                      ><i class="fas fa-star px-1"></i>
+                      <span class="span3 text-secondary">5.0 Review(s)</span>
+                    </p>
+                    <p class="text-primary fs-5 fw-bold px-2">$399.00</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 mb-3">
+                <div class="card border-0 shadow card1">
+                  <div class="img-top p-2 img-top8 img-top10">
+                    <div class="cart rounded-1 mx-auto">
+                      <button class="btn btn-primary btn4 p-2 btn5">
+                        <i class="fas fa-shopping-cart mx-1"></i> Add To Cart
+                      </button>
+                    </div>
+                  </div>
+                  <!-- <img class="img-top p-2" src="./images/mobile (1).jpeg" alt="" /> -->
+                  <div class="card-body">
+                    <p class="span3 text-secondary mb-2 px-2">Laptop</p>
+                    <h5 class="mb-2 fw-bold px-2">Apple MacBook Air</h5>
+                    <p class="text3 px-2">
+                      <i class="fas fa-star px-1"></i><i class="fas fa-star"></i
+                      ><i class="fas fa-star px-1"></i
+                      ><i class="fas fa-star"></i
+                      ><i class="fas fa-star px-1"></i>
+                      <span class="span3 text-secondary">5.0 Review(s)</span>
+                    </p>
+                    <p class="text-primary fs-5 fw-bold px-2">$899.00</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 mb-3">
+                <div class="card border-0 shadow card1">
+                  <div class="img-top p-2 img-top8 img-top11">
+                    <div class="cart rounded-1 mx-auto">
+                      <button class="btn btn-primary btn4 p-2 btn5">
+                        <i class="fas fa-shopping-cart mx-1"></i> Add To Cart
+                      </button>
+                    </div>
+                  </div>
+                  <!-- <img class="img-top p-2" src="./images/mobile (1).jpeg" alt="" /> -->
+                  <div class="card-body">
+                   
+                    <p class="span3 text-secondary mb-2 px-2">Speaker</p>
+                    <h5 class="mb-2 fw-bold px-2">Bluetooth Speaker</h5>
+                    <p class="text3 px-2">
+                      <i class="fas fa-star px-1"></i><i class="fas fa-star"></i
+                      ><i class="fas fa-star px-1"></i
+                      ><i class="fas fa-star"></i
+                      ><i class="fa-regular fa-star px-1"></i>
+                      <span class="span3 text-secondary">4.0 Review(s)</span>
+                    </p>
+                    <p class="text-primary fs-5 fw-bold px-2">$70.00</p>
+
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-12 mb-3">
+                <div class="bg-img bg-img2">
+                  <div class="content content1 text-right">
+                    <h4 class="fw-bold">Samsung Notebook 9</h4>
+                    <p class="text-secondary span3 text-right">
+                      Lorem ipsum dolor sit amet,<br />
+                      eiusmod tempor incididunt ut labore.
+                    </p>
+                    <h4 class="fw-bold">$590.00</h4>
+                    <button class="btn btn-primary mt-2 rounded-1 btn-lg fs-6">
+                      Shop Now
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="card border-0 shadow card1">
+              <div class="img-top p-2 img-top12">
+                <div class="cart rounded-1 mx-auto">
+                  <button class="btn btn-primary btn4 p-2 btn6">
+                    <i class="fas fa-shopping-cart mx-1"></i> Add To Cart
+                  </button>
+                </div>
+              </div>
+              <!-- <img class="img-top p-2" src="./images/mobile (1).jpeg" alt="" /> -->
+              <div class="card-body">
+                <h5 class="mb-2 fw-bold px-2">Bluetooth Headphone</h5>
+
+                <p class="text3 px-2">
+                  <i class="fas fa-star px-1"></i><i class="fas fa-star"></i
+                  ><i class="fas fa-star px-1"></i><i class="fas fa-star"></i
+                  ><i class="fas fa-star px-1"></i>
+                  <span class="span3 text-secondary">5.0 Review(s)</span>
+                </p>
+                <p class="text-primary fs-5 fw-bold px-2">
+                  $200.00
+                  <del class="text-secondary fw-light px-2">$400.00</del>
+                </p>
+                <p class="span3 text-secondary mb-2 px-2">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry incididunt ut eiusmod tempor labores.
+                </p>
+                <div>
+                  <p class="badge position-absolute start-0 p-2">-50%</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--end of container-->
+    </div>
+    <!--end of container-fluid-->
+
+    <div class="container-fluid mt-5 pt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h4 class="list-title">Best Sellers</h4>
+            <div>
+              <img
+                src="./images/Screenshot__599_-removebg-preview.png"
+                class="float-start"
+                alt=""
+                width="70px"
+              />
+              <h6 class="pt-3">Samsung Gear 360 VR Camera</h6>
+              <p class="text-secondary list-text">$68.00</p>
+            </div>
+            <div>
+              <img
+                src="./images/Screenshot__599_-removebg-preview.png"
+                class="float-start"
+                alt=""
+                width="70px"
+              />
+              <h6 class="pt-3">Samsung Gear 360 VR Camera</h6>
+              <p class="text-secondary list-text">$68.00</p>
+            </div>
+            <div>
+              <img
+                src="./images/Screenshot__599_-removebg-preview.png"
+                class="float-start"
+                alt=""
+                width="70px"
+              />
+              <h6 class="pt-3">Samsung Gear 360 VR Camera</h6>
+              <p class="text-secondary list-text">$68.00</p>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <h4 class="list-title">New Arrivals</h4>
+            <div>
+              <img
+                src="./images/Screenshot__601_-removebg-preview.png"
+                class="float-start"
+                alt=""
+                width="70px"
+              />
+              <h6 class="pt-3">Puro Sound Labs BT2200</h6>
+              <p class="text-secondary list-text">$95.00</p>
+            </div>
+            <div>
+              <img
+                src="./images/Screenshot__601_-removebg-preview.png"
+                class="float-start"
+                alt=""
+                width="70px"
+              />
+              <h6 class="pt-3">Puro Sound Labs BT2200</h6>
+              <p class="text-secondary list-text">$95.00</p>
+            </div>
+            <div>
+              <img
+                src="./images/Screenshot__601_-removebg-preview.png"
+                class="float-start"
+                alt=""
+                width="70px"
+              />
+              <h6 class="pt-3">Puro Sound Labs BT2200</h6>
+              <p class="text-secondary list-text">$95.00</p>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <h4 class="list-title">Top Rated</h4>
+            <div>
+              <img
+                src="./images/Screenshot__600_-removebg-preview.png"
+                class="float-start"
+                alt=""
+                width="70px"
+              />
+              <h6 class="pt-3">Apple MacBook Air</h6>
+              <p class="text-secondary list-text">$299.00</p>
+            </div>
+            <div>
+              <img
+                src="./images/Screenshot__600_-removebg-preview.png"
+                class="float-start"
+                alt=""
+                width="70px"
+              />
+              <h6 class="pt-3">Apple MacBook Air</h6>
+              <p class="text-secondary list-text">$299.00</p>
+            </div>
+            <div>
+              <img
+                src="./images/Screenshot__600_-removebg-preview.png"
+                class="float-start"
+                alt=""
+                width="70px"
+              />
+              <h6 class="pt-3">Apple MacBook Air</h6>
+              <p class="text-secondary list-text">$299.00</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container pt-5">
+      <div class="text-center justify-content-center">
+        <h3 class="fw-bold heading3">Our Latest News</h3>
+        <div class="horizontal-line m-auto"></div>
+        <p class="text-secondary mt-4 text mb-5">
+          There are many variations of passages of Lorem Ipsum available, but
+          the majority have suffered alteration <br />
+          in some form.
+        </p>
+      </div>
+      <div class="row">
+        <div class="col-md-4 mb-3">
+          <div class="card border-0 shadow card1">
+            <div class="img-top p-2 img-top13"></div>
+            <!-- <img class="img-top p-2" src="./images/mobile (1).jpeg" alt="" /> -->
+            <div class="card-body">
+              <p class="span3 text-secondary mb-2 px-2">eCommerce</p>
+              <h5 class="mb-2 fw-bold px-2">
+                What information is needed for shipping?
+              </h5>
+              <p class="text-secondary">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt.
+              </p>
+              <button class="btn btn-light btn-outline-primary">
+                Read More
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-3">
+          <div class="card border-0 shadow card1">
+            <div class="img-top p-2 img-top14"></div>
+            <!-- <img class="img-top p-2" src="./images/mobile (1).jpeg" alt="" /> -->
+            <div class="card-body">
+              <p class="span3 text-secondary mb-2 px-2">Gaming</p>
+              <h5 class="mb-2 fw-bold px-2">
+                Interesting fact about gaming consoles
+              </h5>
+              <p class="text-secondary">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt.
+              </p>
+              <button class="btn btn-light btn-outline-primary">
+                Read More
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-3">
+          <div class="card border-0 shadow card1">
+            <div class="img-top p-2 img-top15"></div>
+            <!-- <img class="img-top p-2" src="./images/mobile (1).jpeg" alt="" /> -->
+            <div class="card-body">
+              <p class="span3 text-secondary mb-2 px-2">Electronic</p>
+              <h5 class="mb-2 fw-bold px-2">
+                Electronics, instrumentation & control engineering
+              </h5>
+              <p class="text-secondary">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt.
+              </p>
+              <button class="btn btn-light btn-outline-primary">
+                Read More
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid bg-light">
+      <div class="container pt-5 pb-5">
+        <div class="row">
+          <div class="col-md-3 col-sm-6 col-12 border border-1 card9">
+            <div class="col-content m-auto text-center pt-5">
+              <i
+                class="fas fa-truck fa-flip-horizontal text-primary fs-4 pb-3"
+              ></i>
+              <h3 class="free">Free Shipping</h3>
+              <p class="text-secondary parag pb-4">On order over $99</p>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6 col-12 border border-1 card9">
+            <div class="col-content m-auto text-center pt-5">
+              <i class="fas fa-question text-primary fs-4 pb-3"></i>
+              <h3 class="free">24/7 Support.</h3>
+              <p class="text-secondary parag pb-4">Live Chat Or Call</p>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6 col-12 border border-1 card9">
+            <div class="col-content m-auto text-center pt-5">
+              <i class="fas fa-credit-card text-primary fs-4 pb-3"></i>
+              <h3 class="free">Online Payment.</h3>
+              <p class="text-secondary parag pb-4">Online Payment.</p>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6 col-12 border border-1 card9">
+            <div class="col-content m-auto text-center pt-5">
+              <i class="fas fa-sync text-primary fs-4 pb-3"></i>
+              <h3 class="free">Easy Return.</h3>
+              <p class="text-secondary parag pb-4">Hassle Free Shopping.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid container-fluid- pt-5 pb-3">
+      <div class="container">
+        <div class="row row1 pb-3">
+          <div class="col-md-4 fs-3">
+            <a class="navbar-brand text-white fw-bold pb-3" href="#"
+              ><i class="fas fa-shipping-fast text-primary"></i>ShopGrids</a
+            >
+          </div>
+
+          <div class="col-md-4">
+            <h5 class="text-white pb-0 mb-0">Subscribe to our Newsletter</h5>
+            <p class="text-secondary">
+              Get all the latest information, Sales and Offers.
+            </p>
+          </div>
+
+          <div class="col-md-4">
+            <form>
+              <input
+                class="form-control-sm text-white input1"
+                type="email"
+                placeholder="Email address here..."
+              />
+              <button class="btn btn-primary">Subscribe</button>
+            </form>
+          </div>
+        </div>
+        <!--row-->
+
+        <div class="row row2">
+          <div class="col-md-3  mb-2">
+            <h5 class="text-white text-h">Get In Touch With Us</h5>
+            <div class="div12">
+              <p class="text-white">Phone: +1 (900) 33 169 7720</p>
+              <p class="text-white">
+                Monday-Friday: <br />
+                9.00 am - 8.00 pm
+              </p>
+              <p class="text-white">
+                Saturday: <br />
+                10.00 am - 6.00 pm
+              </p>
+              <p class="text-white">support@shopgrids.com</p>
+            </div>
+          </div>
+
+          <div class="col-md-3  mb-2">
+            <h5 class="text-white text-h">Our Mobile App</h5>
+            <div class="div11">
+              <button class="btn btn8 mb-3 p-3">
+                <i class="fab fa-apple float-start mx-2 pt-2 fs-2"></i>
+                Download on the <br />
+                App Store
+              </button>
+              <button class="btn btn8 p-3 mb-3">
+                <i class="fab fa-google-play float-start mx-2 pt-2 fs-3"></i></i>
+                Download on the <br />
+                
+Google Play
+              </button>
+            </div>
+          </div>
+
+          <div class="col-md-3 mb-2">
+            <h5 class="text-white text-h">Information</h5>
+            <div class="div12">
+              <p class="text-white">About Us</p>
+              <p class="text-white">Contact Us</p>
+              <p class="text-white">Downloads</p>
+              <p class="text-white">Sitemap</p>
+              <p class="text-white">FAQs Page</p>
+            </div>
+          </div>
+
+          <div class="col-md-3  mb-2">
+            <h5 class="text-white text-h">Shop Departments</h5>
+            <div class="div12">
+              <p class="text-white">Computers & Accessories</p>
+              <p class="text-white">Smartphones & Tablets</p>
+              <p class="text-white">TV, Video & Audio</p>
+              <p class="text-white">Cameras, Photo & Video</p>
+              <p class="text-white">Headphones</p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="m-auto text-center text-white">
+          <p class="pt-4">Developed by Sara Hussein</p>
+        </div>
+      </div>
+      <!--container-->
+    </div>
+    <!--container-fluid-->
+   
+
+    <script src="https://cdn.jsdelivr.xyz/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
